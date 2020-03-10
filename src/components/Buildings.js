@@ -14,27 +14,30 @@ export class Buildings extends Component {
   componentDidMount() {
     const margins = { left: 100, right: 100, top: 100, bottom: 100 };
 
-    //Create the svg
+    //Create the svg and the buildings group
     const svg = d3
       .select(this.refs.buildingsArea)
       .append("svg")
       .attr("left", "100px")
       .attr("width", "1100")
-      .attr("height", "9800")
+      .attr("height", "10900")
       .attr("transform", `translate(${margins.left},${margins.top})`);
 
     const g = svg.append("g").attr("transform", `translate(20, 20)`);
 
     d3.json("data/allTimesBuildings.json").then(data => {
+      //Parsing data
       data.forEach(d => {
         d.year = +d.year;
         d.height = +d.height;
       });
 
+      //Sorting the years
       data = _.chain(data)
         .sortBy(d => -d.year)
         .value();
 
+      //Scales
       const heightScale = d3
         .scaleLinear()
         .domain([0, d3.max(data, d => d.height)])
@@ -56,8 +59,8 @@ export class Buildings extends Component {
           americaShape
         ]);
 
+      //Drawing the buildings
       const paths = g.selectAll("path").data(data);
-
       paths
         .enter()
         .append("path")
@@ -65,7 +68,7 @@ export class Buildings extends Component {
         .attr("transform", (d, i) => {
           var scale = heightScale(d.height);
           var maxScale = heightScale(d3.max(data, d => d.height));
-          var hbet = ((maxScale - parseInt(scale)) * 267) / maxScale;
+          var hbet = ((maxScale - parseInt(scale)) * 266) / maxScale;
           var k7ez = ((maxScale - parseInt(scale)) * 189) / maxScale / 2;
 
           var x = (i % 5) * 180 * 1.25 + k7ez;
@@ -88,6 +91,47 @@ export class Buildings extends Component {
         })
         .append("text")
         .attr("text", d => d.name);
+
+      //Displaying the years by row of 5 buildings
+      const allyears = data.map(d => d.year);
+      const yearsData = _.uniq(_.map(allyears));
+
+      const years = d3
+        .select(this.refs.buildingsYears)
+        .selectAll(".year")
+        .data(yearsData);
+
+      years
+        .enter()
+        .append("h2")
+        .attr("class", "year buildings-years_h2")
+        .style("position", "absolute")
+        .style("top", (d, i) => {
+          console.log("data.indexOf(d) ", d, "is", allyears.indexOf(d));
+          return Math.floor(allyears.indexOf(d) / 5) * 210 * 1.5 + 340 + "px";
+        })
+        .text(d => d);
+
+      //Displaying the names
+      const allnames = data.map(d => d.name);
+
+      const names = d3
+        .select(this.refs.buildingsNames)
+        .selectAll(".bname ")
+        .data(allnames);
+
+      names
+        .enter()
+        .append("p")
+        .attr("class", "year buildings-names_p")
+        .style("position", "absolute")
+        .style("top", (d, i) => {
+          return Math.floor(i / 5) * 210 * 1.5 + 380 + "px";
+        })
+        .style("left", (d, i) => {
+          return (i % 5) * 180 * 1.2 + 189 + "px";
+        })
+        .text(d => d);
     });
   }
 
@@ -116,8 +160,9 @@ export class Buildings extends Component {
   render() {
     return (
       <div className="buildings">
-        <div className="buildings-area" ref="buildingsArea"></div>
         <div className="buildings-years" ref="buildingsYears"></div>
+        <div className="buildings-names" ref="buildingsNames"></div>
+        <div className="buildings-area" ref="buildingsArea"></div>
       </div>
     );
   }
