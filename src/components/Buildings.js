@@ -135,8 +135,8 @@ export class Buildings extends Component {
           <div className="header-presentation">
             <p className="paragraph u-margin-bottom-xsmall">
               This project showcases the 5 tallest buildings in the world
-              through the history, their height, their region and why they were
-              built.
+              through the history, their heights, their regions and why they
+              were built.
             </p>
             <p className="paragraph-smol ">
               This project was built with the D3.js library and was inspired by{" "}
