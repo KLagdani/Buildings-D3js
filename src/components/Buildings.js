@@ -144,6 +144,7 @@ export class Buildings extends Component {
                 href="https://sxywu.com/filmflowers/"
                 target="_blank"
                 class="paragraph-smol-a"
+                rel="noopener noreferrer"
               >
                 shirley wu
               </a>
@@ -156,6 +157,7 @@ export class Buildings extends Component {
               href="http://lagdani.com"
               target="_blank"
               class="paragraph-smol-a"
+              rel="noopener noreferrer"
             >
               Kaoutar LAGDANI
             </a>
