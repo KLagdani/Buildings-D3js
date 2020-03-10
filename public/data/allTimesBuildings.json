@@ -1184,7 +1184,7 @@
   {
     "year": "1970",
     "name": "One World Trade Center",
-    "height": "417",
+    "height": "541",
     "region": "America",
     "purpose": ["Economy"],
     "link": "https://en.wikipedia.org/wiki/One_World_Trade_Center"
@@ -1238,17 +1238,17 @@
     "year": "2000",
     "name": "Jin Mao Tower",
     "height": "421",
-    "region": "America",
+    "region": "Asia",
     "purpose": ["Economy"],
-    "link": "https://en.wikipedia.org/wiki/Aon_Center_(Chicago)"
+    "link": "https://en.wikipedia.org/wiki/Jin_Mao_Tower"
   },
   {
     "year": "2000",
     "name": "One World Trade Center",
-    "height": "417",
-    "region": "Asia",
-    "purpose": ["Economy", "Urban"],
-    "link": "https://en.wikipedia.org/wiki/Jin_Mao_Tower"
+    "height": "541",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/One_World_Trade_Center"
   },
 
   {
@@ -1281,9 +1281,9 @@
     "year": "2003",
     "name": "Jin Mao Tower",
     "height": "421",
-    "region": "America",
+    "region": "Asia",
     "purpose": ["Economy"],
-    "link": "https://en.wikipedia.org/wiki/Aon_Center_(Chicago)"
+    "link": "https://en.wikipedia.org/wiki/Jin_Mao_Tower"
   },
   {
     "year": "2003",
@@ -1332,9 +1332,9 @@
     "year": "2006",
     "name": "Jin Mao Tower",
     "height": "421",
-    "region": "America",
+    "region": "Asia",
     "purpose": ["Economy"],
-    "link": "https://en.wikipedia.org/wiki/Aon_Center_(Chicago)"
+    "link": "https://en.wikipedia.org/wiki/Jin_Mao_Tower"
   },
   {
     "year": "2006",
