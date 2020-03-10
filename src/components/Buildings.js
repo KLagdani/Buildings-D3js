@@ -2,17 +2,26 @@ import React, { Component } from "react";
 import _ from "lodash";
 import * as d3 from "d3";
 
-import {
-  asiaShape,
-  middleEastShape,
-  americaShape,
-  europeShape,
-  africaShape
-} from "../utils/buildingShapes";
+import { colorScale, shapeScale } from "../utils/scales";
+import { shapesLegend, colorLegend, heightLegend } from "../utils/legendSVG";
 import performGradient from "../utils/gradient";
+import displayYears from "../utils/displayYears";
 
 export class Buildings extends Component {
+  buildLegend() {
+    const svg = d3
+      .select(this.refs.buildingLegend)
+      .append("svg")
+      .attr("class", "buildings-legend-svg")
+      .attr("width", "1000")
+      .attr("height", "600");
+
+    shapesLegend(svg);
+    colorLegend(svg);
+    heightLegend(svg);
+  }
   componentDidMount() {
+    this.buildLegend();
     const margins = { left: 100, right: 100, top: 100, bottom: 100 };
 
     //Create the svg and the buildings group
@@ -38,31 +47,21 @@ export class Buildings extends Component {
         .sortBy(d => -d.year)
         .value();
 
-      //Scales
+      //Scale
       const heightScale = d3
         .scaleLinear()
         .domain([0, d3.max(data, d => d.height)])
         .range([10, 60]);
 
-      const colorScale = d3
-        .scaleOrdinal()
-        .domain(["Politic", "Religion", "Urban", "Economy"])
-        .range(d3.schemePastel1);
-
-      const shapeScale = d3
-        .scaleOrdinal()
-        .domain(["Europe", "Africa", "Asia", "Middle East", "America"])
-        .range([
-          europeShape,
-          africaShape,
-          asiaShape,
-          middleEastShape,
-          americaShape
-        ]);
-
       //Drawing the buildings
       const paths = g.selectAll("path").data(data);
-      const pathG = paths.enter().append("g");
+      const pathG = paths
+        .enter()
+        .append("g")
+        .attr("class", "building-path")
+        .on("click", d => {
+          window.open(d.link);
+        });
       pathG
         .append("path")
         .attr("d", d => shapeScale(d.region))
@@ -96,7 +95,7 @@ export class Buildings extends Component {
       pathG
         .append("text")
         .text(d => d.name)
-        .attr("class", (d, i) => `building-name-${i}`)
+        .attr("class", (d, i) => `paragraph building-name-${i}`)
         .attr("transform", (d, i) => {
           var buildingWidth = d3
             .select(`.building-${i}`)
@@ -121,33 +120,58 @@ export class Buildings extends Component {
         });
 
       //Displaying the years by row of 5 buildings
-      const allyears = data.map(d => d.year);
-      const yearsData = _.uniq(_.map(allyears));
-
-      const years = d3
-        .select(this.refs.buildingsYears)
-        .selectAll(".year")
-        .data(yearsData);
-
-      years
-        .enter()
-        .append("h2")
-        .attr("class", "year buildings-years_h2")
-        .style("position", "absolute")
-        .style("top", (d, i) => {
-          console.log("data.indexOf(d) ", d, "is", allyears.indexOf(d));
-          return Math.floor(allyears.indexOf(d) / 5) * 210 * 1.5 + 340 + "px";
-        })
-        .text(d => d);
+      displayYears(data, this.refs.buildingsYears);
     });
   }
 
   render() {
     return (
       <div className="buildings">
-        <div className="buildings-years" ref="buildingsYears"></div>
-        <div className="buildings-names" ref="buildingsNames"></div>
-        <div className="buildings-area" ref="buildingsArea"></div>
+        <div className="header heading-primary heading-primary--main u-margin-top-big">
+          {" "}
+          5 Tallest buildings throughout the years
+        </div>
+        <div className="header u-center-text u-margin-bottom-small">
+          <div className="header-presentation">
+            <p className="paragraph u-margin-bottom-xsmall">
+              This project showcases the 5 tallest buildings in the world
+              through the history, their height, their region and why they were
+              built.
+            </p>
+            <p className="paragraph-smol ">
+              This project was built with the D3.js library and was inspired by{" "}
+              <a
+                href="https://sxywu.com/filmflowers/"
+                target="_blank"
+                class="paragraph-smol-a"
+              >
+                shirley wu
+              </a>
+              's flowers
+            </p>
+          </div>
+
+          <div className="paragraph u-margin-top-medium header-link">
+            <a
+              href="http://lagdani.com"
+              target="_blank"
+              class="paragraph-smol-a"
+            >
+              Kaoutar LAGDANI
+            </a>
+          </div>
+        </div>
+
+        <div className="buildings-legend">
+          <div className="building-legend-filler" ref="buildingLegend"></div>
+        </div>
+        <div className="buildings-content">
+          <div className="buildings-content-svgs">
+            <div className="buildings-years" ref="buildingsYears"></div>
+            <div className="buildings-names" ref="buildingsNames"></div>
+            <div className="buildings-area" ref="buildingsArea"></div>
+          </div>
+        </div>
       </div>
     );
   }
