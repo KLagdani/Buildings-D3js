@@ -139,7 +139,7 @@ export class Buildings extends Component {
               were built.
             </p>
             <p className="paragraph-smol ">
-              This project was built with the D3.js library and was inspired by{" "}
+              This project was built using the D3.js library and was inspired by{" "}
               <a
                 href="https://sxywu.com/filmflowers/"
                 target="_blank"
