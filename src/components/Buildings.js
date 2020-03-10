@@ -9,6 +9,7 @@ import {
   europeShape,
   africaShape
 } from "../utils/buildingShapes";
+import performGradient from "../utils/gradient";
 
 export class Buildings extends Component {
   componentDidMount() {
@@ -19,7 +20,7 @@ export class Buildings extends Component {
       .select(this.refs.buildingsArea)
       .append("svg")
       .attr("left", "100px")
-      .attr("width", "1100")
+      .attr("width", "1200")
       .attr("height", "10900")
       .attr("transform", `translate(${margins.left},${margins.top})`);
 
@@ -61,10 +62,11 @@ export class Buildings extends Component {
 
       //Drawing the buildings
       const paths = g.selectAll("path").data(data);
-      paths
-        .enter()
+      const pathG = paths.enter().append("g");
+      pathG
         .append("path")
         .attr("d", d => shapeScale(d.region))
+        .attr("class", (d, i) => `building-${i}`)
         .attr("transform", (d, i) => {
           var scale = heightScale(d.height);
           var maxScale = heightScale(d3.max(data, d => d.height));
@@ -79,7 +81,7 @@ export class Buildings extends Component {
         .attr("width", "30px")
         .attr("fill", d => {
           if (d.purpose.length > 1) {
-            const grad = this.performGradient(
+            const grad = performGradient(
               svg,
               colorScale(d.purpose[0]),
               colorScale(d.purpose[1])
@@ -88,9 +90,35 @@ export class Buildings extends Component {
           } else {
             return colorScale(d.purpose[0]);
           }
-        })
+        });
+
+      //Displaying the names
+      pathG
         .append("text")
-        .attr("text", d => d.name);
+        .text(d => d.name)
+        .attr("class", (d, i) => `building-name-${i}`)
+        .attr("transform", (d, i) => {
+          var buildingWidth = d3
+            .select(`.building-${i}`)
+            .node()
+            .getBoundingClientRect().width;
+          var buildingNameWidth = d3
+            .select(`.building-name-${i}`)
+            .node()
+            .getBoundingClientRect().width;
+          var scale = heightScale(d.height);
+          var maxScale = heightScale(d3.max(data, d => d.height));
+          var k7ez = ((maxScale - parseInt(scale)) * 189) / maxScale / 2;
+
+          var x =
+            (i % 5) * 180 * 1.25 +
+            k7ez +
+            buildingWidth / 2 -
+            buildingNameWidth / 2;
+          var y = Math.floor(i / 5) * 210 * 1.5 + 290;
+
+          return "translate(" + [x, y] + `)`;
+        });
 
       //Displaying the years by row of 5 buildings
       const allyears = data.map(d => d.year);
@@ -111,50 +139,7 @@ export class Buildings extends Component {
           return Math.floor(allyears.indexOf(d) / 5) * 210 * 1.5 + 340 + "px";
         })
         .text(d => d);
-
-      //Displaying the names
-      const allnames = data.map(d => d.name);
-
-      const names = d3
-        .select(this.refs.buildingsNames)
-        .selectAll(".bname ")
-        .data(allnames);
-
-      names
-        .enter()
-        .append("p")
-        .attr("class", "year buildings-names_p")
-        .style("position", "absolute")
-        .style("top", (d, i) => {
-          return Math.floor(i / 5) * 210 * 1.5 + 380 + "px";
-        })
-        .style("left", (d, i) => {
-          return (i % 5) * 180 * 1.2 + 189 + "px";
-        })
-        .text(d => d);
     });
-  }
-
-  performGradient(svg, color1, color2) {
-    const gradName = `grad-${color1}-${color2}`;
-    const defs = svg.append("defs");
-
-    const grad1 = defs
-      .append("linearGradient")
-      .attr("id", gradName)
-      .attr("gradientTransform", "rotate(90)");
-
-    grad1
-      .append("stop")
-      .attr("offset", "5%")
-      .attr("style", `stop-color:${color1};stop-opacity:1`);
-
-    grad1
-      .append("stop")
-      .attr("offset", "95%")
-      .attr("style", `stop-color:${color2};stop-opacity:1`);
-
-    return gradName;
   }
 
   render() {
