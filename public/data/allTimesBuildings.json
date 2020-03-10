@@ -1,0 +1,1471 @@
+[
+  {
+    "year": "-2000",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Politic", "Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+  {
+    "year": "-2000",
+    "name": "Ziggurat of Ur",
+    "height": "35",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+  {
+    "year": "-2000",
+    "name": "White temple of Uruk",
+    "height": "12",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Uruk"
+  },
+  {
+    "year": "-2000",
+    "name": "Ziggurat of Tepe Sialk",
+    "height": "12",
+    "region": "Middle East",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Tepe_Sialk"
+  },
+  {
+    "year": "-2000",
+    "name": "Tower of Jericho",
+    "height": "8",
+    "region": "Middle East",
+    "purpose": ["Politic", "Religion"],
+    "link": "https://en.wikipedia.org/wiki/Tower_of_Jericho"
+  },
+  {
+    "year": "-1000",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+  {
+    "year": "-1000",
+    "name": "Etemenanki",
+    "height": "91",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Etemenanki"
+  },
+  {
+    "year": "-1000",
+    "name": "Ziggurat of Dur Untash",
+    "height": "53",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+  {
+    "year": "-1000",
+    "name": "Ziggurat of Ur",
+    "height": "35",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+  {
+    "year": "-1000",
+    "name": "Great Sphinx of Giza",
+    "height": "20",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza#Origin_and_identity"
+  },
+  {
+    "year": "-800",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+  {
+    "year": "-800",
+    "name": "Etemenanki",
+    "height": "91",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Etemenanki"
+  },
+
+  {
+    "year": "-800",
+    "name": "Ziggurat of Nimrud",
+    "height": "60",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Nimrud"
+  },
+
+  {
+    "year": "-800",
+    "name": "Ziggurat of Dur Untash",
+    "height": "53",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+
+  {
+    "year": "-800",
+    "name": "Ziggurat of Ur",
+    "height": "35",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+  {
+    "year": "-600",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+  {
+    "year": "-600",
+    "name": "Etemenanki",
+    "height": "91",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Etemenanki"
+  },
+
+  {
+    "year": "-600",
+    "name": "Ziggurat of Nimrud",
+    "height": "60",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Nimrud"
+  },
+
+  {
+    "year": "-600",
+    "name": "Ziggurat of Dur Untash",
+    "height": "53",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+
+  {
+    "year": "-600",
+    "name": "Palace of Nineveh",
+    "height": "40",
+    "region": "Middle East",
+    "purpose": ["Politic", "Religion"],
+    "link": "https://en.wikipedia.org/wiki/Nineveh"
+  },
+  {
+    "year": "-300",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+  {
+    "year": "-300",
+    "name": "Etemenanki",
+    "height": "91",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Etemenanki"
+  },
+
+  {
+    "year": "-300",
+    "name": "Ziggurat of Nimrud",
+    "height": "60",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Nimrud"
+  },
+
+  {
+    "year": "-300",
+    "name": "Ziggurat of Dur Untash",
+    "height": "53",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+
+  {
+    "year": "-300",
+    "name": "Halicarnassus",
+    "height": "42",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Halicarnassus"
+  },
+  {
+    "year": "-200",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "-200",
+    "name": "Lighthouse of alexandria",
+    "height": "130",
+    "region": "Africa",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+  },
+  {
+    "year": "-200",
+    "name": "Etemenanki",
+    "height": "91",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Etemenanki"
+  },
+
+  {
+    "year": "-200",
+    "name": "Ziggurat of Nimrud",
+    "height": "60",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Nimrud"
+  },
+
+  {
+    "year": "-200",
+    "name": "Ziggurat of Dur Untash",
+    "height": "53",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+  {
+    "year": "-100",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "-100",
+    "name": "Lighthouse of alexandria",
+    "height": "130",
+    "region": "Africa",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+  },
+  {
+    "year": "-100",
+    "name": "Etemenanki",
+    "height": "91",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Etemenanki"
+  },
+
+  {
+    "year": "-100",
+    "name": "La Danta Temple",
+    "height": "72",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+
+  {
+    "year": "-100",
+    "name": "Ziggurat of Nimrud",
+    "height": "60",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Nimrud"
+  },
+  {
+    "year": "10",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "10",
+    "name": "Lighthouse of alexandria",
+    "height": "130",
+    "region": "Africa",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+  },
+
+  {
+    "year": "10",
+    "name": "La Danta Temple",
+    "height": "72",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+
+  {
+    "year": "10",
+    "name": "Ruwanwelisaya",
+    "height": "55",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Ruwanwelisaya"
+  },
+  {
+    "year": "10",
+    "name": "Halicarnassus",
+    "height": "42",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Halicarnassus"
+  },
+  {
+    "year": "100",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "100",
+    "name": "Lighthouse of alexandria",
+    "height": "130",
+    "region": "Africa",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+  },
+
+  {
+    "year": "100",
+    "name": "La Danta Temple",
+    "height": "72",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+
+  {
+    "year": "100",
+    "name": "Ruwanwelisaya",
+    "height": "55",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Ruwanwelisaya"
+  },
+  {
+    "year": "100",
+    "name": "Colosseum",
+    "height": "48",
+    "region": "Europe",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Colosseum"
+  },
+  {
+    "year": "160",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "160",
+    "name": "Stupa of Kanishka",
+    "height": "145",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Kanishka_stupa"
+  },
+
+  {
+    "year": "160",
+    "name": "Lighthouse of alexandria",
+    "height": "130",
+    "region": "Africa",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+  },
+
+  {
+    "year": "160",
+    "name": "La Danta Temple",
+    "height": "72",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+
+  {
+    "year": "160",
+    "name": "Pyramid of the sun",
+    "height": "71",
+    "region": "America",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Pyramid_of_the_Sun"
+  },
+  {
+    "year": "310",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "310",
+    "name": "Stupa of Kanishka",
+    "height": "145",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Kanishka_stupa"
+  },
+
+  {
+    "year": "310",
+    "name": "Lighthouse of alexandria",
+    "height": "130",
+    "region": "Africa",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+  },
+
+  {
+    "year": "310",
+    "name": "Jetavanaramaya",
+    "height": "122",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Jetavanaramaya"
+  },
+
+  {
+    "year": "310",
+    "name": "La Danta Temple",
+    "height": "72",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+  {
+    "year": "520",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "520",
+    "name": "Yongning Pagoda",
+    "height": "147",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Yongning_Pagoda"
+  },
+
+  {
+    "year": "520",
+    "name": "Stupa of Kanishka",
+    "height": "145",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Kanishka_stupa"
+  },
+
+  {
+    "year": "520",
+    "name": "Lighthouse of alexandria",
+    "height": "130",
+    "region": "Africa",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+  },
+
+  {
+    "year": "520",
+    "name": "Jetavanaramaya",
+    "height": "122",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Jetavanaramaya"
+  },
+  {
+    "year": "540",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "540",
+    "name": "Stupa of Kanishka",
+    "height": "145",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Kanishka_stupa"
+  },
+
+  {
+    "year": "540",
+    "name": "Lighthouse of alexandria",
+    "height": "130",
+    "region": "Africa",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+  },
+
+  {
+    "year": "540",
+    "name": "Jetavanaramaya",
+    "height": "122",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Jetavanaramaya"
+  },
+
+  {
+    "year": "540",
+    "name": "La Danta Temple",
+    "height": "72",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur"
+  },
+  {
+    "year": "680",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "680",
+    "name": "Stupa of Kanishka",
+    "height": "145",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Kanishka_stupa"
+  },
+
+  {
+    "year": "680",
+    "name": "Lighthouse of alexandria",
+    "height": "130",
+    "region": "Africa",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+  },
+
+  {
+    "year": "680",
+    "name": "Jetavanaramaya",
+    "height": "122",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Jetavanaramaya"
+  },
+
+  {
+    "year": "680",
+    "name": "Hwangnyongsa",
+    "height": "80",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Hwangnyongsa"
+  },
+  {
+    "year": "730",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "730",
+    "name": "Lighthouse of alexandria",
+    "height": "130",
+    "region": "Africa",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+  },
+
+  {
+    "year": "730",
+    "name": "Jetavanaramaya",
+    "height": "122",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Jetavanaramaya"
+  },
+
+  {
+    "year": "730",
+    "name": "Hwangnyongsa",
+    "height": "80",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Hwangnyongsa"
+  },
+
+  {
+    "year": "730",
+    "name": "Umayyad Mosque",
+    "height": "77",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Umayyad_Mosque"
+  },
+  {
+    "year": "1060",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "1060",
+    "name": "Shwesandaw pagoda",
+    "height": "100",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Shwesandaw_Pagoda_(Bagan)"
+  },
+
+  {
+    "year": "1060",
+    "name": "Liaodi Pagoda",
+    "height": "84",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Liaodi_Pagoda"
+  },
+
+  {
+    "year": "1060",
+    "name": "Hwangnyongsa",
+    "height": "80",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Hwangnyongsa"
+  },
+
+  {
+    "year": "1060",
+    "name": "Umayyad Mosque",
+    "height": "77",
+    "region": "Middle East",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Umayyad_Mosque"
+  },
+  {
+    "year": "1190",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "1190",
+    "name": "Malmesburry Abbey",
+    "height": "131",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Malmesbury_Abbey"
+  },
+
+  {
+    "year": "1190",
+    "name": "Shwesandaw pagoda",
+    "height": "100",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Shwesandaw_Pagoda_(Bagan)"
+  },
+
+  {
+    "year": "1190",
+    "name": "Liaodi Pagoda",
+    "height": "84",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Liaodi_Pagoda"
+  },
+
+  {
+    "year": "1190",
+    "name": "Hwangnyongsa",
+    "height": "80",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Hwangnyongsa"
+  },
+  {
+    "year": "1260",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "1260",
+    "name": "Malmesburry Abbey",
+    "height": "131",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Malmesbury_Abbey"
+  },
+
+  {
+    "year": "1260",
+    "name": "Abbaye-aux-Hommes",
+    "height": "122",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Abbey_of_Saint-%C3%89tienne,_Caen"
+  },
+
+  {
+    "year": "1260",
+    "name": "Shwesandaw pagoda",
+    "height": "100",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Shwesandaw_Pagoda_(Bagan)"
+  },
+
+  {
+    "year": "1260",
+    "name": "Liaodi Pagoda",
+    "height": "84",
+    "region": "Asia",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Liaodi_Pagoda"
+  },
+
+  {
+    "year": "1310",
+    "name": "Lincoln Cathedral",
+    "height": "159",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Lincoln_Cathedral"
+  },
+  {
+    "year": "1310",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "1310",
+    "name": "Malmesburry Abbey",
+    "height": "131",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Malmesbury_Abbey"
+  },
+
+  {
+    "year": "1310",
+    "name": "Abbaye-aux-Hommes",
+    "height": "122",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Abbey_of_Saint-%C3%89tienne,_Caen"
+  },
+
+  {
+    "year": "1310",
+    "name": "Torrazzo of Cremona",
+    "height": "112",
+    "region": "Europe",
+    "purpose": ["Religion", "Urban"],
+    "link": "https://en.wikipedia.org/wiki/Torrazzo_of_Cremona"
+  },
+
+  {
+    "year": "1330",
+    "name": "Lincoln Cathedral",
+    "height": "159",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Lincoln_Cathedral"
+  },
+
+  {
+    "year": "1330",
+    "name": "St Paul's Cathedral",
+    "height": "150",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/St_Paul's_Cathedral"
+  },
+  {
+    "year": "1330",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "1330",
+    "name": "St Nicholas Church",
+    "height": "132",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Saint_Nicholas_Church,_Strasbourg"
+  },
+
+  {
+    "year": "1330",
+    "name": "Malmesburry Abbey",
+    "height": "131",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Malmesbury_Abbey"
+  },
+
+  {
+    "year": "1450",
+    "name": "Lincoln Cathedral",
+    "height": "159",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Lincoln_Cathedral"
+  },
+
+  {
+    "year": "1450",
+    "name": "St Paul's Cathedral",
+    "height": "150",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/St_Paul's_Cathedral"
+  },
+
+  {
+    "year": "1450",
+    "name": "Strasbourg Cathedral",
+    "height": "142",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Strasbourg_Cathedral"
+  },
+  {
+    "year": "1450",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "1450",
+    "name": "St Stephen's Cathedral",
+    "height": "136",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/St._Stephen's_Cathedral,_Vienna"
+  },
+
+  {
+    "year": "1490",
+    "name": "Lincoln Cathedral",
+    "height": "159",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Lincoln_Cathedral"
+  },
+
+  {
+    "year": "1490",
+    "name": "St Mary's Church",
+    "height": "151",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/St_Mary's_Church,_Bury_St_Edmunds"
+  },
+
+  {
+    "year": "1490",
+    "name": "St Paul's Cathedral",
+    "height": "150",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/St_Paul's_Cathedral"
+  },
+
+  {
+    "year": "1490",
+    "name": "Strasbourg Cathedral",
+    "height": "142",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Strasbourg_Cathedral"
+  },
+  {
+    "year": "1490",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "1730",
+    "name": "Strasbourg Cathedral",
+    "height": "142",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Strasbourg_Cathedral"
+  },
+  {
+    "year": "1730",
+    "name": "Pyramids of Giza",
+    "height": "147",
+    "region": "Africa",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+
+  {
+    "year": "1730",
+    "name": "St Stephen's Cathedral",
+    "height": "136",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/St._Stephen's_Cathedral,_Vienna"
+  },
+
+  {
+    "year": "1730",
+    "name": "St Nicholas Church",
+    "height": "132",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Saint_Nicholas_Church,_Strasbourg"
+  },
+
+  {
+    "year": "1730",
+    "name": "Malmesburry Abbey",
+    "height": "131",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Malmesbury_Abbey"
+  },
+
+  {
+    "year": "1850",
+    "name": "Washington Monument",
+    "height": "169",
+    "region": "America",
+    "purpose": ["Politic"],
+    "link": "https://en.wikipedia.org/wiki/Washington_Monument"
+  },
+
+  {
+    "year": "1850",
+    "name": "Cologne Cathedral",
+    "height": "157",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Cologne_Cathedral"
+  },
+  {
+    "year": "1850",
+    "name": "Rouen Cathedral",
+    "height": "151",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Rouen_Cathedral"
+  },
+
+  {
+    "year": "1850",
+    "name": "St Nichlas' Church",
+    "height": "147",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Saint_Nicholas_Church,_Ghent"
+  },
+
+  {
+    "year": "1850",
+    "name": "Strasbourg Cathedral",
+    "height": "142",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Strasbourg_Cathedral"
+  },
+
+  {
+    "year": "1890",
+    "name": "Eiffel Tower",
+    "height": "324",
+    "region": "Europe",
+    "purpose": ["Politic", "Urban"],
+    "link": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+  },
+
+  {
+    "year": "1890",
+    "name": "Washington Monument",
+    "height": "169",
+    "region": "America",
+    "purpose": ["Politic"],
+    "link": "https://en.wikipedia.org/wiki/Washington_Monument"
+  },
+
+  {
+    "year": "1890",
+    "name": "Mole Antonelliana",
+    "height": "168",
+    "region": "Europe",
+    "purpose": ["Politic"],
+    "link": "https://en.wikipedia.org/wiki/Mole_Antonelliana"
+  },
+  {
+    "year": "1890",
+    "name": "Ulm Minster",
+    "height": "162",
+    "region": "Europe",
+    "purpose": ["Religion"],
+    "link": "https://en.wikipedia.org/wiki/Ulm_Minster"
+  },
+
+  {
+    "year": "1890",
+    "name": "Blackpool Tower",
+    "height": "158",
+    "region": "Europe",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Blackpool_Tower"
+  },
+
+  {
+    "year": "1910",
+    "name": "Eiffel Tower",
+    "height": "324",
+    "region": "Europe",
+    "purpose": ["Politic", "Urban"],
+    "link": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+  },
+
+  {
+    "year": "1910",
+    "name": "Metropolitan life tower",
+    "height": "213",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Metropolitan_Life_Insurance_Company_Tower"
+  },
+
+  {
+    "year": "1910",
+    "name": "Singer Building",
+    "height": "187",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Singer_Building"
+  },
+  {
+    "year": "1910",
+    "name": "New Brighton Tower",
+    "height": "173",
+    "region": "Europe",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/New_Brighton_Tower"
+  },
+
+  {
+    "year": "1910",
+    "name": "Washington Monument",
+    "height": "169",
+    "region": "America",
+    "purpose": ["Politic"],
+    "link": "https://en.wikipedia.org/wiki/Washington_Monument"
+  },
+
+  {
+    "year": "1930",
+    "name": "Empire State Building",
+    "height": "381",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Empire_State_Building"
+  },
+  {
+    "year": "1930",
+    "name": "Eiffel Tower",
+    "height": "324",
+    "region": "Europe",
+    "purpose": ["Politic", "Urban"],
+    "link": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+  },
+
+  {
+    "year": "1930",
+    "name": "Chrysler Building",
+    "height": "282",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Chrysler_Building"
+  },
+
+  {
+    "year": "1930",
+    "name": "Woolworth Building",
+    "height": "187",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Woolworth_Building"
+  },
+
+  {
+    "year": "1930",
+    "name": "Metropolitan life tower",
+    "height": "213",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Metropolitan_Life_Insurance_Company_Tower"
+  },
+
+  {
+    "year": "1970",
+    "name": "Willis Tower",
+    "height": "442",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Willis_Tower"
+  },
+  {
+    "year": "1970",
+    "name": "One World Trade Center",
+    "height": "417",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/One_World_Trade_Center"
+  },
+
+  {
+    "year": "1970",
+    "name": "Two World Trade Center",
+    "height": "415",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/2_World_Trade_Center"
+  },
+
+  {
+    "year": "1970",
+    "name": "Empire State Building",
+    "height": "381",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Empire_State_Building"
+  },
+
+  {
+    "year": "1970",
+    "name": "Aon Center",
+    "height": "346",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Aon_Center_(Chicago)"
+  },
+
+  {
+    "year": "2000",
+    "name": "Petronas Towers",
+    "height": "452",
+    "region": "Asia",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Petronas_Towers"
+  },
+  {
+    "year": "2000",
+    "name": "Willis Tower",
+    "height": "442",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Willis_Tower"
+  },
+
+  {
+    "year": "2000",
+    "name": "Jin Mao Tower",
+    "height": "421",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Aon_Center_(Chicago)"
+  },
+  {
+    "year": "2000",
+    "name": "One World Trade Center",
+    "height": "417",
+    "region": "Asia",
+    "purpose": ["Economy", "Urban"],
+    "link": "https://en.wikipedia.org/wiki/Jin_Mao_Tower"
+  },
+
+  {
+    "year": "2000",
+    "name": "Two World Trade Center",
+    "height": "415",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/2_World_Trade_Center"
+  },
+
+  {
+    "year": "2003",
+    "name": "Petronas Towers",
+    "height": "452",
+    "region": "Asia",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Petronas_Towers"
+  },
+  {
+    "year": "2003",
+    "name": "Willis Tower",
+    "height": "442",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Willis_Tower"
+  },
+
+  {
+    "year": "2003",
+    "name": "Jin Mao Tower",
+    "height": "421",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Aon_Center_(Chicago)"
+  },
+  {
+    "year": "2003",
+    "name": "Empire State Building",
+    "height": "381",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Empire_State_Building"
+  },
+
+  {
+    "year": "2003",
+    "name": "Aon Center",
+    "height": "346",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Aon_Center_(Chicago)"
+  },
+
+  {
+    "year": "2006",
+    "name": "Taipei 101",
+    "height": "346",
+    "region": "Asia",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Taipei_101"
+  },
+  {
+    "year": "2006",
+    "name": "Petronas Towers",
+    "height": "452",
+    "region": "Asia",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Petronas_Towers"
+  },
+  {
+    "year": "2006",
+    "name": "Willis Tower",
+    "height": "442",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Willis_Tower"
+  },
+
+  {
+    "year": "2006",
+    "name": "Jin Mao Tower",
+    "height": "421",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Aon_Center_(Chicago)"
+  },
+  {
+    "year": "2006",
+    "name": "Empire State Building",
+    "height": "381",
+    "region": "America",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Empire_State_Building"
+  },
+  {
+    "year": "2012",
+    "name": "Burj Khalifa",
+    "height": "828",
+    "region": "Middle East",
+    "purpose": ["Economy", "Urban"],
+    "link": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+  },
+  {
+    "year": "2012",
+    "name": "Taipei 101",
+    "height": "346",
+    "region": "Asia",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Taipei_101"
+  },
+
+  {
+    "year": "2012",
+    "name": "Shanghai WFC",
+    "height": "492",
+    "region": "Asia",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Shanghai_World_Financial_Center"
+  },
+  {
+    "year": "2012",
+    "name": "Petronas Towers",
+    "height": "452",
+    "region": "Asia",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Petronas_Towers"
+  },
+  {
+    "year": "2012",
+    "name": "Willis Tower",
+    "height": "442",
+    "region": "America",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Willis_Tower"
+  },
+  {
+    "year": "2017",
+    "name": "Burj Khalifa",
+    "height": "828",
+    "region": "Middle East",
+    "purpose": ["Economy", "Urban"],
+    "link": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+  },
+  {
+    "year": "2017",
+    "name": "Shanghai Tower",
+    "height": "632",
+    "region": "Asia",
+    "purpose": ["Economy", "Urban"],
+    "link": "https://en.wikipedia.org/wiki/Shanghai_Tower"
+  },
+  {
+    "year": "2017",
+    "name": "Abraj Al-Bait",
+    "height": "601",
+    "region": "Middle East",
+    "purpose": ["Urban", "Religion"],
+    "link": "https://en.wikipedia.org/wiki/Abraj_Al_Bait"
+  },
+  {
+    "year": "2017",
+    "name": "Taipei 101",
+    "height": "346",
+    "region": "Asia",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Taipei_101"
+  },
+
+  {
+    "year": "2017",
+    "name": "Shanghai WFC",
+    "height": "492",
+    "region": "Asia",
+    "purpose": ["Economy"],
+    "link": "https://en.wikipedia.org/wiki/Shanghai_World_Financial_Center"
+  },
+
+  {
+    "year": "2020",
+    "name": "Burj Khalifa",
+    "height": "828",
+    "region": "Middle East",
+    "purpose": ["Economy", "Urban"],
+    "link": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+  },
+  {
+    "year": "2020",
+    "name": "Shanghai Tower",
+    "height": "632",
+    "region": "Asia",
+    "purpose": ["Economy", "Urban"],
+    "link": "https://en.wikipedia.org/wiki/Shanghai_Tower"
+  },
+  {
+    "year": "2020",
+    "name": "Abraj Al-Bait",
+    "height": "601",
+    "region": "Middle East",
+    "purpose": ["Urban", "Religion"],
+    "link": "https://en.wikipedia.org/wiki/Abraj_Al_Bait"
+  },
+
+  {
+    "year": "2020",
+    "name": "Ping An IFC",
+    "height": "599",
+    "region": "Asia",
+    "purpose": ["Economy", "Urban"],
+    "link": "https://en.wikipedia.org/wiki/Ping_An_Finance_Centre"
+  },
+  {
+    "year": "2020",
+    "name": "Lotte World Tower",
+    "height": "554",
+    "region": "Asia",
+    "purpose": ["Urban"],
+    "link": "https://en.wikipedia.org/wiki/Lotte_World_Tower"
+  }
+]
